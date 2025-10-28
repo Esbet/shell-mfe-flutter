@@ -31,10 +31,6 @@ class _Registerstep2PageState extends State<Registerstep2Page> {
               onCookiesRetrieved:(cookies) {
                 
               },
-              onCameraAccessRequested: (requestData) {
-                log('📷 Solicitud de acceso a cámara: $requestData');
-                // Aquí puedes manejar la solicitud adicional si es necesario
-              },
             ),
           ],
         ),
